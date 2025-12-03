@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee shop website</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕️</text></svg>">
+
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="timings.html">Our Timings</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="https://media.istockphoto.com/id/1859646927/photo/closeup-image-of-a-man-and-a-woman-clinking-white-coffee-mugs-in-cafe.webp?b=1&s=612x612&w=0&k=20&c=65GrpOlHHFI6xclmLItHEvIxTP3TlLIKrbcWDaEPjng="
+                alt="Coffee cup holding">
+
+            <figcaption>Let us know what do you prefer. 😍</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <section id="#contact-form">
+            <fieldset>
+                <legend>
+                    Send Us a Message
+                </legend>
+                <label for="name">Name : </label>
+                <input type="text" placeholder="Your Name" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email : </label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                <br><br>
+                <label for="reason">Contact Reason : </label>
+                <select name="reason" id="reason">
+                    <option value="default">Select a reason</option>
+                    <option value="machine">My machine has went out.</option>
+                </select>
+                <br>
+                <br>
+                <label for="explainer">Describe</label> <br>
+                <textarea name="explain" id="explainer" placeholder="Explan your preferences in deatil here..." rows="5"
+                    cols="50"></textarea>
+            </fieldset>
+            <br>
+            <input type="button" value="Reset">
+            <input type="button" value="Submit">
+        </section>
+
+        <hr>
+        <section id="location">
+            <h2>Our Location</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.967768879019!2d77.28041797570654!3d28.54068848824507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3717feed0a9%3A0x75f7243c5e33d581!2sApollo%20Hospital%2C%20Jasola!5e0!3m2!1sen!2sin!4v1764749640976!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <a href="#">Back to Top &uparrow;</a>
+
+    </main>
+    <hr>
+    <footer>
+        <p>Made with ❤️ from India</p>
+
+        Copyright &copy; The Mocha Magic
+    </footer>
+</body>
+
+</html>
