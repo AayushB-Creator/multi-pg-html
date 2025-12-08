@@ -1,4 +1,4 @@
-# Multi Pager HTML only website layout
+# Multi Pager HTML - website layout
 Here I tried to create a basic layout for an imaginary coffee shop - Coffee Mocha
 
 Deployed link - https://aayushb-creator.github.io/multi-pg-html/
